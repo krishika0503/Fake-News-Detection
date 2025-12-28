@@ -1,0 +1,6 @@
+Requirements:
+
+-pandas
+-scikit-learn
+-nltk
+-kaggle dataset
