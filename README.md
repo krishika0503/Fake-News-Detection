@@ -1,37 +1,87 @@
-# Fake-News-Detection
-A friendly model that tests and predicts whether the news is fake or real using python.
+##Fake News Detection using Machine Learning
+A beginner-friendly Natural Language Processing (NLP) project that classifies news articles as FAKE or REAL using machine learning techniques in Python.
 
-## Project Overview
-Fake news spreads misinformation rapidly through online platforms. This project applies machine learning techniques to automatically detect fake news based on textual patterns. This is a beginner friendly model trained and accurated to produce results.
+##Author & Internship Details
+Name: Krishika Agarwal
+Internship Organization: Naviotech
+Project Type: Internship Project
+Email: krxshxka@gmail.com
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- TF-IDF Vectorizer
-- Logistic Regression
-- Google Colab
+This project aims to automatically detect fake news by analyzing textual patterns using machine learning, making it a practical introduction to NLP-based classification problems.
 
-## Dataset
-The dataset used in this project is sourced from Kaggle:
-https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+##Project Objectives
+Understand text preprocessing techniques
+Apply TF-IDF for feature extraction
+Train a machine learning classifier
+Evaluate model performance
+Predict the authenticity of unseen news articles
 
-It contains labeled news articles categorized as FAKE or REAL.
+## Technologies & Tools Used
+Python – Core programming language
+Pandas – Data manipulation and analysis
+Scikit-learn – Machine learning algorithms
+TF-IDF Vectorizer – Text feature extraction
+Logistic Regression – Classification model
+Google Colab – Development environment
 
-## How It Works
-1. Load and preprocess the dataset
-2. Convert text into numerical features using TF-IDF
-3. Train a Logistic Regression classifier
-4. Evaluate accuracy on test data
-5. Predict whether a news article is fake or real
+##Dataset Description
+Dataset source (Kaggle):
+🔗 https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-## Output
-The model predicts whether a given news article is FAKE or REAL based on learned text patterns.
+##Dataset Features
+News article text
+Labels: FAKE and REAL
+Large and well-balanced dataset suitable for classification tasks
 
-## Limitations
-The model relies on linguistic patterns rather than factual verification, which may lead to misclassification of some real-world news articles.
+##Methodology
+The project follows a structured machine learning pipeline:
+1)Data Loading
+Import and combine fake and real news datasets
+2)Text Preprocessing
+Cleaning text data and removing noise
+Preparing data for vectorization
+3)Feature Extraction
+Convert text into numerical form using TF-IDF Vectorization
+4)Model Training
+Train a Logistic Regression classifier on the processed data
+5)Model Evaluation
+Measure performance using accuracy score
+6)Prediction
+Classify user-input news articles as FAKE or REAL
 
-## Future Scope
-- Implement deep learning models such as LSTM or BERT
-- Improve text preprocessing
-- Build a web interface using Streamlit
+##Results & Performance
+Achieves high accuracy on test data
+Performs well on general news articles
+Successfully predicts authenticity of custom input text
+Note: Accuracy may slightly vary due to random train-test splits.
+
+##Sample Output
+
+1)Input News: "Government announces new education policy..."
+Prediction: REAL
+2)Input News: "Celebrity claims aliens control world governments..."
+Prediction: FAKE
+
+##Limitations
+Detects patterns in language, not factual correctness
+May misclassify:
+Satirical content
+Opinion-based articles
+Performance depends on dataset quality
+
+##Future Enhancements
+Implement deep learning models such as LSTM or BERT
+Improve preprocessing with lemmatization and stop-word removal
+Build a Streamlit-based web application
+Integrate real-time news verification
+
+##Learning Outcomes
+Through this internship project, I learned:
+Practical application of NLP in real-world problems
+Text vectorization using TF-IDF
+Building and evaluating machine learning classifiers
+Complete end-to-end ML project workflow
+
+##Conclusion
+This internship project demonstrates a practical application of machine learning and NLP in tackling fake news detection.
+It provides a strong foundation for beginners and can be extended into more advanced real-world systems.
